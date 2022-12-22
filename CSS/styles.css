@@ -239,6 +239,28 @@
     transition: transform 0.3s ease-out;
   }
   
+  /*Japanese section */
+  .japanese-section{
+    background: var(--main-blue);
+    width: 100%;
+    height: 80vh;
+    padding: 2rem 2rem 0 2rem;
+  }
+  .japanese-section > h1{
+    padding-top: 62.5px;
+    padding-bottom: 20px;
+  }
+.japanese-section > div{
+  padding-left: 3rem;
+  text-align: justify;
+}
+  .japanese-section > div > ul {
+    list-style-type: square;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   /* Contact section */
   
   .contact-section {
