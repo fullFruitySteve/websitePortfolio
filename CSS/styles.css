@@ -252,7 +252,6 @@
   }
 .japanese-section > div{
   padding-left: 3rem;
-  /*text-align: justify;*/
   text-align: center;
 }
   .japanese-section > div > ul {
@@ -266,11 +265,12 @@
   }
   /* Games section */
   .games-section{
+    background: var(--main-blue);
     box-sizing: border-box;
     margin: 0;
   }
   .gallery{
-    background: var(--main-blue);
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -285,9 +285,8 @@
   .games-section > h1{
     padding-top: 62.5px;
     padding-bottom: 20px;
-    background: var(--main-blue);
   }
-  .gallery > figure> img {
+  .gallery > figure > a > img {
     width: 100%;
     max-width: 350px;
     height: 300px;
@@ -295,14 +294,37 @@
     border-radius: 10px;
   }
 
-figcaption {
-  background-color: #222;
-  color: #fff;
-  font: italic smaller sans-serif;
-  padding: 3px;
-  text-align: center;
-  border-radius: 10px;
-}
+  .games-section > .gallery > figure:hover{
+    opacity: 0.3;
+    cursor: pointer;
+  }
+  .gallery > figure > a > img:hover{
+    border-radius: 0px;
+    max-width: 360px;
+  }
+  .games-section > .gallery > figure > figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  /*Intellectuals Section*/
+
+  .intellectuals-section{
+    border-style: solid;
+    background: var(--main-blue);
+  }
+  .intellectuals-section > h1{
+    border-style: solid;
+    padding-top: 62.5px;
+    padding-bottom: 20px;
+  }
+  .intellectuals-section > p{
+    border-style: solid;
+  }
 
   /* Contact section */
   
