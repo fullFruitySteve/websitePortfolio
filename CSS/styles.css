@@ -1,15 +1,10 @@
-.project-tile{
-    padding: 0;
-  }
-
-  :root {
+:root {
     --main-white: #f0f0f0;
     --main-red: #be3144;
     --main-blue: #45567d;
     --main-gray: #303841;
   }
   
-
   * {
     margin: 0;
     padding: 0;
@@ -58,8 +53,7 @@
     color: var(--main-white);
   }
   
-  h1,
-  h2 {
+  h1,h2, h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     text-align: center;
@@ -88,7 +82,7 @@
   }
   
   /* nav */
-  
+
   .nav {
     display: flex;
     justify-content: flex-end;
@@ -99,6 +93,7 @@
     background: var(--main-red);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
+    overflow: hidden;
   }
   
   .nav-list {
@@ -240,6 +235,7 @@
   }
   
   /*Japanese section */
+
   .japanese-section{
     background: var(--main-blue);
     width: 100%;
@@ -250,6 +246,13 @@
     padding-top: 62.5px;
     padding-bottom: 20px;
   }
+
+  #h1-translate:hover, #p1-translate:hover, #p2-translate:hover,
+  #p3-translate:hover,#p4-translate:hover,#p5-translate:hover,
+  #l1-translate:hover,#l2-translate:hover,#l3-translate:hover,#l4-translate:hover{
+    background-color: rgba(218, 221, 21, 0.4);
+  }
+ 
 .japanese-section > div{
   padding-left: 3rem;
   text-align: center;
@@ -311,19 +314,40 @@
     border-radius: 10px;
   }
 
-  /*Intellectuals Section*/
-
-  .intellectuals-section{
-    border-style: solid;
+  /*Heros Section*/
+  .heros-section{
     background: var(--main-blue);
   }
-  .intellectuals-section > h1{
-    border-style: solid;
+  .heros-section > h1{
     padding-top: 62.5px;
     padding-bottom: 20px;
   }
-  .intellectuals-section > p{
-    border-style: solid;
+  .hero > .hero-name{
+    text-align: left;
+    padding: 0 10px;
+    background-color: #23345d;
+  }
+  .hero{
+    display:inline-block;
+    margin-bottom:  20px;
+    background-color: #34456d;
+    margin: 0 auto;
+    margin-bottom:  20px;
+  }
+  .hero:last-child{
+    margin-bottom: 40px;
+  }
+
+/*.hero > .hero-description{
+  padding: 10px;
+}*/
+
+  .hero > img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    float: left;
   }
 
   /* Contact section */
