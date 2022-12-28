@@ -15,32 +15,32 @@
     <nav id="navbar" class="nav">
       <ul class="nav-list">
         <li>
-          <a href="#welcome-section">About</a>
+          <a href="#welcome-section">About<span class="sr-only">(About Button)</span></a>
         </li>
         <!--<li>
-          <a href="#projects">Work</a>
+          <a href="#projects">Work<span class="sr-only">(Work Button)</span></a>
         </li>-->
         <li>
-          <a href="#japanese">日本語</a>
+          <a href="#japanese">日本語<span class="sr-only">(日本語 Button)</span></a>
         </li>
         <li>
-          <a href="#games">Games</a>
+          <a href="#games">Games<span class="sr-only">(Games Button)</span></a>
         </li>
         <li>
-          <a href="#heros">Heros</a>
+          <a href="#heros">Heros<span class="sr-only">(Heroes Button)</span></a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Contact<span class="sr-only">(Contact Button)</span></a>
         </li>
       </ul>
       <!--<i id="bars" class="fa fa-bars"></i>-->
     </nav>
-      <section id="welcome-section" class="welcome-section">
+      <section id="welcome-section" class="welcome-section" role="region" aria-labelledby="About">
         <h1>Hello I am Stephen</h1>
           <p>A software engineer, </p>
           <p>and i hope one day to be a Japanese translator</p>
       </section><!--
-    <section id="projects" class="projects-section">
+    <section id="projects" class="projects-section" role="region" aria-labelledby="Projects">
       <h2>These are some of my projects</h2>
       <div class="projects-grid">
         <a href="#" target-"blank" class="project project-title">
@@ -77,7 +77,7 @@
         <i class="fas fa-chevron-right"></i>
       </a>
     </section> -->
-    <section id="japanese" class="japanese-section">
+    <section id="japanese" class="japanese-section" role="region" aria-labelledby="日本語">
       <h1><span id="h1-translate">自己紹介</span></h1>
       <div>
         <p><span id="p1-translate">いい自己紹介を作る事が大事な技術そしてこのウェブサイトにとって凄い部分です。！</span></p>
@@ -102,101 +102,101 @@
         <p id="translation">*Add translation of highlighted box*</p>
       </div>
     </section>
-    <section id="games" class="games-section">
+    <section id="games" class="games-section" role="region" aria-labelledby="Games">
       <h1>Games I enjoy</h1>
       <div class="gallery">
         <figure>
-          <a class="game-image" target="_blank" href="https://store.steampowered.com/app/105600/Terraria/">
+          <a class="game-image" target="_blank" href="https://store.steampowered.com/app/105600/Terraria/" ><span class="sr-only">(Terraria Link)</span>
             <img src="https://cdn.akamai.steamstatic.com/steam/apps/105600/header.jpg?t=1666290860" alt="Terraria" loading="lazy">
           </a>
           <figcaption>Terraria</figcaption>
         </figure>
         <figure>
-          <a class="game-image" target="_blank" href="https://eu.shop.battle.net/en-gb/product/diablo-ii">
+          <a class="game-image" target="_blank" href="https://eu.shop.battle.net/en-gb/product/diablo-ii"><span class="sr-only">(Diablo 2 Link)</span>
             <img src="https://upload.wikimedia.org/wikipedia/en/d/d5/Diablo_II_Coverart.png" alt="Diablo 2" alt="Diablo-2"  loading="lazy">
           </a>
           <figcaption>Diablo 2</figcaption>
         </figure>
             <figure>
-              <a class="game-image" target="_blank" href="https://www.gog.com/en/game/populous_the_beginning">
+              <a class="game-image" target="_blank" href="https://www.gog.com/en/game/populous_the_beginning"><span class="sr-only">(Populous the Beginning Link)</span>
                 <img src="https://upload.wikimedia.org/wikipedia/en/6/64/Populous-the-beginning.png" alt="Populous-the-beginning" loading="lazy"></a>
           <figcaption>Populous the Beginning</figcaption>
         </figure>
         <figure>
-          <a class="game-image" target="_blank" href="https://store.steampowered.com/app/632360/Risk_of_Rain_2/">
+          <a class="game-image" target="_blank" href="https://store.steampowered.com/app/632360/Risk_of_Rain_2/"><span class="sr-only">(Risk of Rain 2 Link)</span>
             <img src="https://upload.wikimedia.org/wikipedia/en/c/c1/Risk_of_Rain_2.jpg" alt="Risk-of-Rain-2" loading="lazy">
           </a>
           <figcaption>Risk of Rain 2</figcaption>
         </figure>
         <figure>
-          <a class="game-image" target="_blank" href="https://store.steampowered.com/app/372360/Tales_of_Symphonia/">
+          <a class="game-image" target="_blank" href="https://store.steampowered.com/app/372360/Tales_of_Symphonia/"><span class="sr-only">(Tales of Symphonia Link)</span>
             <img src="https://s2.gaming-cdn.com/images/products/916/616x353/tales-of-symphonia-pc-game-steam-cover.jpg?v=1647353462" alt="tales-of-symphonia"  loading="lazy">
           </a>
           <figcaption>Tales of Symphonia</figcaption>
         </figure>
         <figure>
-          <a class="game-image" target="_blank" href="https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/">
+          <a class="game-image" target="_blank" href="https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/"><span class="sr-only">(The Binding of Isaac: Rebirth Link)</span>
             <img src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/wiiu_download_software_5/SI_WiiUDS_TheBindingOfIsaacRebirth_image1600w.jpg" alt="the-binding-of-isaac-rebirth" loading="lazy">
           </a>
           <figcaption>The Binding of Isaac: Rebirth</figcaption>
         </figure>
         <figure>
-          <a class="game-image" target="_blank" href="https://www.nintendo.co.uk/Games/Nintendo-Switch-games/The-Legend-of-Zelda-Breath-of-the-Wild-1173609.html">
+          <a class="game-image" target="_blank" href="https://www.nintendo.co.uk/Games/Nintendo-Switch-games/The-Legend-of-Zelda-Breath-of-the-Wild-1173609.html"><span class="sr-only">(The Legend of Zelda: Breath of the Wild Link)</span>
             <img src="https://assets-prd.ignimgs.com/2022/06/14/zelda-breath-of-the-wild-1655249167687.jpg" alt="the-legend-of-zelda-breath-of-the-wild" loading="lazy">
           </a>
           <figcaption>The Legend of Zelda: Breath of the Wild</figcaption>
         </figure>
         <figure>
-          <a class="game-image" target="_blank" href="https://www.gog.com/en/game/cultures_12">
+          <a class="game-image" target="_blank" href="https://www.gog.com/en/game/cultures_12"><span class="sr-only">(Cultures 2 Link)</span>
             <img src="https://upload.wikimedia.org/wikipedia/en/9/95/Cultures_2_-_The_Gates_of_Asgard_Cover_Art.jpg" alt="cultures-2" loading="lazy">
           </a>
           <figcaption>Cultures 2</figcaption>
         </figure>
         <figure>
-          <a class="game-image" target="_blank" href="https://www.nintendo.co.uk/Games/Super-Nintendo/Donkey-Kong-Country-2-Diddy-s-Kong-Quest-276907.html">
+          <a class="game-image" target="_blank" href="https://www.nintendo.co.uk/Games/Super-Nintendo/Donkey-Kong-Country-2-Diddy-s-Kong-Quest-276907.html"><span class="sr-only">(Donkey Kong Country 2: Diddy's Kong Quest Link)</span>
             <img src="https://upload.wikimedia.org/wikipedia/en/c/c3/DK_Country_2.jpg" alt="donkey-kong-country-diddys-kong-quest" loading="lazy">
           </a>
           <figcaption>Donkey Kong Country 2: Diddy's Kong Quest</figcaption>
         </figure>
         <figure>
-          <a class="game-image" target="_blank" href="https://store.steampowered.com/app/1604030/V_Rising/">
+          <a class="game-image" target="_blank" href="https://store.steampowered.com/app/1604030/V_Rising/"><span class="sr-only">(V Rising Link)</span>
             <img src="https://assets-prd.ignimgs.com/2022/05/17/v-rising-1652813348036.jpg" alt="v-rising" loading="lazy">
           </a>
           <figcaption>V Rising</figcaption>
         </figure>
       </div>
     </section>
-    <section id="heros" class="heros-section">
+    <section id="heros" class="heros-section" role="region" aria-labelledby="Heroes">
       <h1>People I Admire</h1>
       <div class="hero">
         <img src="https://www.hoover.org/sites/default/files/styles/fellow/public/content/fellows/2022-04/thomas_sowell_min.jpeg?itok=4hoUodOo" alt="thomas-sowell" loading="lazy">
-        <h3 class="hero-name">Thomas Sowell</h3>
+        <h3 class="hero-name">Thomas Sowell<span class="sr-only">(Thomas Sowell)</span></h3>
         <p class="hero-description">Thomas Sowell is one of the greatest intellectuals of our time.
           He has written many books covering subjects such as: History, Economics, Society, Culture and Race.
         </p>
       </div>
       <div class="hero">
         <img src="https://m.media-amazon.com/images/M/MV5BMDExNmM3NDAtODgyOS00YWE2LWFkZDctN2ViNDZjZTg0NWUxXkEyXkFqcGdeQXVyODIzMzQ0ODQ@._V1_.jpg" loading="lazy">
-        <h3 class="hero-name">Yuri Bezmenov</h3>
+        <h3 class="hero-name">Yuri Bezmenov<span class="sr-only">(Yuri Bezmenovl)</span></h3>
         <p class="hero-description">Yuri Bezmenov is another man of great intellect, he was an ex-KGB agent specialising in international ideological subversion and cultural demoralisation. He came to whe west of warn us of the dangers of modern collective "liberation" movements and the importance of a strong national/cultural identity.</p>
       </div>
       <div class="hero">
         <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/DouglasMurray2019_crop.jpg" alt="douglas-murray" loading="lazy">
-        <h3 class="hero-name">Douglas Murray</h3>
+        <h3 class="hero-name">Douglas Murray<span class="sr-only">(Douglas Murray)</span></h3>
         <p class="hero-description">Douglas Murray is a British author who has written about modern issues in our western society, he tackles issues such as the gradual authortarienism brought on by "progressive" and "liberal" ideologies such as LGBT, feminism and Black Lives Matter.</p>
       </div>
       <div class="hero">
         <img src="https://m.media-amazon.com/images/M/MV5BMmI5YTc2NTUtM2Q2Zi00NDc2LWJkNzktNmRmYzcxMGFhNjA2XkEyXkFqcGdeQXVyMTA4MTkxNDk3._V1_.jpg" alt="wes-watson" loading="lazy">
-        <h3 class="hero-name">Wes Watson</h3>
+        <h3 class="hero-name">Wes Watson<span class="sr-only">(Wes Watson)</span></h3>
         <p class="hero-description">Wes Watson is an ex-convict who now runs a YouTube channel talking about personal progress whether that be working out, focusing on your career or anything to help feed the mind, body and soul and become much more selfless.</p>
       </div>
       <div class="hero">
         <img src="https://i1.sndcdn.com/artworks-2YDY97UZtZgJBHNE-obpiOw-t500x500.jpg" alt="sora-the-troll" loading="lazy">
-        <h3 class="hero-name">Sora the Troll</h3>
-        <p class="hero-description">Sora the Troll is a Japanese YouTuber and voice actor who makes lots of comedy content making fun of Japanese and Western cultures. </p>
+        <h3 class="hero-name">Sora the Troll<span class="sr-only">(Sora the Troll)</span></h3>
+        <p class="hero-description">Sora the Troll is a Japanese YouTuber and voice actor who makes lots of comedy content making fun of Japanese and Western cultures as well as internet cultures and trends. </p>
       </div>
     </section>
-    <section id="contact" class="contact-section">
+    <section id="contact" class="contact-section" role="region" aria-labelledby="Contact">
       <div class="contact-section-header">
         <h2>Let's Work Together</h2>
         <p>一緒に働きましょう！</p>
