@@ -253,36 +253,42 @@
   
   /*Japanese section */
 
-  .japanese-section{
-    background: var(--main-blue);
-    width: 100%;
-    height: 80vh;
-    padding: 2rem 2rem 0 2rem;
-  }
-  .japanese-section > h1{
-    padding-top: 62.5px;
-    padding-bottom: 20px;
-  }
+.japanese-section{
+  background: var(--main-blue);
+  width: 100%;
+  height: 80vh;
+  padding: 2rem 2rem 0 2rem;
+}
+.japanese-section > h1{
+  padding-top: 62.5px;
+  padding-bottom: 20px;
+}
 
-  #h1-translate:hover, #p1-translate:hover, #p2-translate:hover,
-  #p3-translate:hover,#p4-translate:hover,#p5-translate:hover,
-  #l1-translate:hover,#l2-translate:hover,#l3-translate:hover,#l4-translate:hover{
-    background-color: rgba(218, 221, 21, 0.4);
-  }
- 
+#h1-translate:hover, #p1-translate:hover, #p2-translate:hover,
+#p3-translate:hover,#p4-translate:hover,#p5-translate:hover,
+#l1-translate:hover,#l2-translate:hover,#l3-translate:hover,#l4-translate:hover{
+  background-color: rgba(218, 221, 21, 0.4);
+}
+ .japanese-section > div >#translation{
+  margin-top: 20px;
+  font-size: x-large;
+  content: "cake";
+  color: var(--main-red);
+ }
 .japanese-section > div{
   padding-left: 3rem;
   text-align: center;
 }
-  .japanese-section > div > ul {
-    list-style: none;
-    padding-left: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .japanese-section > div > ul > li{
-    text-align: center;
-  }
+.japanese-section > div > ul {
+  list-style: none;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.japanese-section > div > ul > li{
+  text-align: center;
+}
   /* Games section */
   .games-section{
     background: var(--main-blue);
@@ -290,7 +296,6 @@
     margin: 0;
   }
   .gallery{
-    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
