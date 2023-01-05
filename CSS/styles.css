@@ -101,10 +101,13 @@
   /* nav */
   .nav {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    position: fixed;
+    width: 100%;
     justify-content: space-between;
     padding: 20px;
     background-color: var(--main-red);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     color: #fff;
   }
   #menu {
