@@ -31,11 +31,3 @@ function P4Text(){
 function P5Text(){
     document.getElementById("translation").innerHTML = "These days, I love the Japanese culture and language and study it every day";
 }
-function NavFunc() {
-    let x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }

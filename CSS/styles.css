@@ -99,7 +99,60 @@
   }
   
   /* nav */
-
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--main-red);
+    color: #fff;
+  }
+  #menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+  input[type=checkbox]{
+    display: none;
+    }
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  }
+  @media (max-width: 28.75em) {
+    #menu { 
+      display:none;
+      position: absolute;
+      background-color:var(--main-red);
+      right: 0;
+      left: 0;
+      text-align: center;
+      padding: 16px 0;
+    }
+    #menu li:hover {
+      display: inline-block;
+      transition: 0.3s ease;
+    }
+    #menu li + li {
+      margin-top: 12px;
+    }
+    input[type=checkbox]:checked ~ #menu{
+      display: block;
+    }
+    .hamburger {
+      display: block;
+    }
+    .dropdown {
+      left: 50%;
+      top: 30px;
+      transform: translateX(35%);
+    }
+    .dropdown li:hover {
+      background-color: #4c9e9e;
+    }
+  }
+/*
   .nav {
     display: flex;
     justify-content: flex-end;
@@ -117,7 +170,7 @@
     display: flex;
     margin-right: 2rem;
   }
-  
+
   @media (max-width: 28.75em) {
     .nav {
       justify-content: center;
@@ -137,7 +190,7 @@
   .nav-list a:hover {
     background: var(--main-blue);
   }
-  
+  */
   /* Welcome section */
   
   .welcome-section {
@@ -152,6 +205,7 @@
   }
   
   .welcome-section > p {
+    text-align: center;
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
@@ -273,7 +327,7 @@
   margin-top: 20px;
   font-size: x-large;
   content: "cake";
-  color: var(--main-red);
+  color: var(--main-white)
  }
 .japanese-section > div{
   padding-left: 3rem;
@@ -325,8 +379,8 @@
   }
   .gallery > figure > a > img:hover{
     border-radius: 0px;
-    max-width: 360px;
   }
+
   .games-section > .gallery > figure > figcaption {
     background-color: #222;
     color: #fff;
